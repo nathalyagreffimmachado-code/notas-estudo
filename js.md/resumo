@@ -1,0 +1,18 @@
+O que é javaScript?
+o javaScript fornece a capacidade de criar e controlar o comportamento dinâmico de paginas web
+
+Funções do javaScript:
+interatividade e dinamismo 
+manipulação do DOM
+validação de formularios 
+comunicaçao assícrona 
+
+exemplo javaScript:
+
+const botao = document.getElementById('botaoTroca');
+const card = document.getElementById('meuCard');
+
+// O JS "escuta" o clique e coloca/tira a classe CSS
+botao.addEventListener('click', () => {
+  card.classList.toggle('dark-mode');
+});

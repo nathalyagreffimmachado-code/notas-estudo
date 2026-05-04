@@ -1,0 +1,33 @@
+O que é react?
+O React é uma biblioteca JavaScript para construir interfaces de usuario,favcilitando a criação de componentes e usa uma abordagem declarativa para criar interfaces.
+
+Por que usar react?
+a componentização facilita a manutenção e a reutilização de código.
+o desempenho virtual do dom melhora a perfomance.
+e tambem por muitas pessoas usarem o react acaba tendo muito suporte e muitas bibliotecas.
+
+exemplo react :
+
+import React, { useState } from 'react';
+
+function Contador() {
+  // Criamos um estado chamado 'contagem' que começa em 0
+  const [contagem, setContagem] = useState(0);
+
+  return (
+    <div style={{ textAlign: 'center', padding: '20px' }}>
+      <h2>Você clicou {contagem} vezes</h2>
+      
+      {/* Ao clicar, chamamos setContagem para atualizar o valor */}
+      <button onClick={() => setContagem(contagem + 1)}>
+        Clique aqui!
+      </button>
+      
+      <button onClick={() => setContagem(0)} style={{ marginLeft: '10px' }}>
+        Zerar
+      </button>
+    </div>
+  );
+}
+
+export default Contador;

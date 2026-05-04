@@ -1,0 +1,26 @@
+Nas aulas de html descobrimos que o HTML não é uma linguagem de programação e sim uma linguagem de marcação.
+ele é o esqueleto do site.
+como funciona?
+O HTML utiliza Tags
+
+<h1>: Define um título principal.
+
+<p>: Define um parágrafo.
+
+<a>: Cria um link.
+
+<img>: Insere uma imagem.
+
+estrutura básica:
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+

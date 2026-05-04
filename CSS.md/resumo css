@@ -1,0 +1,8 @@
+O css é a parte estetica do HTML,o html deixa tudo mais entendivel para as pessoas que não tem tanta afinidade com a tecnologia
+exemplos do css
+
+Seletor: Indica quem você quer estilizar (ex: h1, .botao, #logo).
+
+Propriedade: O que você quer mudar (ex: color, font-size, margin).
+
+Valor: A configuração escolhida (ex: blue, 20px, 10%).
